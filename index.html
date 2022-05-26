@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,115 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/consts.css">
+  <link rel="stylesheet" href="css/dish-title-and-desc.css">
+  <link rel="stylesheet" href="css/dish-image.css">
+  <link rel="stylesheet" href="css/dish-badge.css">
 
   <!-- Fonts -->
-  
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-  
+  <div class="container">
+    <div class="content-wrapper">
+      <!-- Header -->
+      <div class="header-wrapper">
+        <div class="header__title title">
+          Classic Cheesecake Recipe
+        </div>
+        <div class="header__dots-and-descr">
+          <div class="header__dots-wrapper">
+            <img src="icons/attach.svg" alt="Comment">
+          </div>
+          <div class="header__descr">
+            Look no further for a creamy and ultra smooth classic cheesecake recipe! Paired with a buttery graham cracker crust, no one can deny its simple decadence. For the best results, bake in a water bath.
+          </div>
+        </div>
+      </div>
+
+      <!-- Dish image -->
+      <div class="dish-image-wrapper">
+        <div class="dish-image"></div>
+      </div>
+
+      <!-- Dish badge & cook-info -->
+      <div class="dish-badge-and-cook-info">
+        <div class="dish-badge-wrapper">
+          <div class="dish-badge">
+            <div class="dish-badge-item">
+              <div class="dish-badge-item__icon">
+                <img src="icons/food.svg" alt="Yeilds">
+              </div>
+
+              <div class="dish-badge-item__title-and-descr">
+                <div class="dish-badge-item__title">
+                  Yeilds
+                </div>
+                <div class="dish-badge-item__descr text-orange">
+                  12 servings
+                </div>
+              </div>
+            </div>
+
+            <div class="dish-badge-item">
+              <div class="dish-badge-item__icon">
+                <img src="icons/clock.svg" alt="Prep time">
+              </div>
+
+              <div class="dish-badge-item__title-and-descr">
+                <div class="dish-badge-item__title">
+                  Prep time
+                </div>
+                <div class="dish-badge-item__descr">
+                  45 minutes
+                </div>
+              </div>
+            </div>
+
+            <div class="dish-badge-item">
+              <div class="dish-badge-item__icon">
+                <img src="icons/clock.svg" alt="Cook time">
+              </div>
+
+              <div class="dish-badge-item__title-and-descr">
+                <div class="dish-badge-item__title">
+                  Cook time
+                </div>
+                <div class="dish-badge-item__descr">
+                  1 hour
+                </div>
+              </div>
+            </div>
+
+            <div class="dish-badge-item">
+              <div class="dish-badge-item__icon">
+                <img src="icons/clock.svg" alt="Total time">
+              </div>
+
+              <div class="dish-badge-item__title-and-descr">
+                <div class="dish-badge-item__title">
+                  Total time
+                </div>
+                <div class="dish-badge-item__descr">
+                  7,75 hours
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cook-info">
+
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/index.js"></script>
 </body>
+
 </html>

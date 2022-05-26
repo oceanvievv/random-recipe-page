@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content-wrapper {
+  width: 100%;
+  max-width: 969px;
+}
+
+.dish-badge-and-cook-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.cook-info {
+  width: 100%;
+  height: 1300px;
+  max-width: 620px;
+
+  background-color: aqua;
+}
+
+
+@media (max-width: 374px) {
+  .content-wrapper {
+    max-width: calc(100% - 24px);
+  }
+  .dish-badge-and-cook-info {
+    flex-direction: column;
+    
+    gap: 30px;
+  }
+}

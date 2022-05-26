@@ -1,0 +1,30 @@
+:root {
+  /* Titles */
+  --title-fs-big: 48px;
+  --title-lh-big: 64px;
+  --title-fs-medium: 24px;
+  --title-lh-medium: 32px;
+  --title-fs-small: 18px;
+  --title-lh-small: 24px;
+  --title-fs-smaller: 14px;
+  --title-lh-smaller: 17px;
+  --title-fs-xsmall: 10px;
+  --title-lh-xsmall: 12px;
+
+  /* Colors */
+  --color-white: white;
+  --color-black: black;
+  --color-dark-gray: #4F4F4F;
+  --color-gray: #BDBDBD;
+  --color-orange: #F2994A;
+  --color-dark-blue: #333333;
+}
+
+.title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+}
+.text-orange {
+  color: var(--color-orange) !important;
+}
