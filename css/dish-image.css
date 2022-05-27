@@ -15,7 +15,7 @@
   background-position: bottom;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 475px) {
   .dish-image-wrapper {
     width: 100%;
     aspect-ratio: 1.74;

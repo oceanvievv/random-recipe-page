@@ -24,6 +24,8 @@
   flex-direction: row;
 
   gap: 17px;
+
+  -webkit-tap-highlight-color: transparent;
 }
 .cook-info__ingredient-point-text {
   font-family: 'Montserrat';
@@ -35,7 +37,7 @@
   color: var(--color-dark-blue);
 }
 
-@media (max-width: 374px) {
+@media (max-width: 475px) {
   .cook-info__ingredients-and-instructions-title {
     font-size: var(--title-fs-small);
     line-height: var(--title-lh-small);

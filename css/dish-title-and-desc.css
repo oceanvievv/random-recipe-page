@@ -41,7 +41,14 @@
   max-width: 580px;
 }
 
-@media (max-width: 374px) {
+@media (max-width: 1024px) {
+  .header__title {
+    font-size: var(--title-fs-smaller-big);
+    line-height: var(--title-lh-smaller-big);
+  }
+}
+
+@media (max-width: 475px) {
   .header-wrapper {
     margin-top: 32px;
     margin-bottom: 25px;

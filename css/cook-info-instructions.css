@@ -43,7 +43,7 @@
   color: var(--color-dark-blue);
 }
 
-@media (max-width: 374px) {
+@media (max-width: 475px) {
   .cook-info__instructions {
     gap: 10px;
   }
