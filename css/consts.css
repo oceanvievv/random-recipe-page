@@ -1,3 +1,4 @@
+/* Consts */
 :root {
   /* Titles */
   --title-fs-big: 48px;
@@ -6,25 +7,66 @@
   --title-lh-medium: 32px;
   --title-fs-small: 18px;
   --title-lh-small: 24px;
-  --title-fs-smaller: 14px;
-  --title-lh-smaller: 17px;
+  --title-fs-smaller: 16px;
+  --title-lh-smaller: 25px;
+  --title-fs-more-small: 14px;
+  --title-lh-more-small: 17px;
   --title-fs-xsmall: 10px;
   --title-lh-xsmall: 12px;
+  --title-fs-xxsmall: 8px;
+  --title-lh-xxsmall: 10px;
 
   /* Colors */
   --color-white: white;
   --color-black: black;
-  --color-dark-gray: #4F4F4F;
-  --color-gray: #BDBDBD;
-  --color-orange: #F2994A;
+  --color-light-gray: #BDBDBD;
+  --color-tinted-light-gray: #828282;
+  --color-gray: #828282;
+  --color-darker-gray: #4F4F4F;
   --color-dark-blue: #333333;
+  --color-orange: #F2994A;
 }
 
+/* Titles */
 .title {
   font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 700;
 }
+.cook-info__ingredients-and-instructions-title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--title-fs-medium);
+  line-height: var(--title-lh-medium);
+
+  color: var(--color-dark-blue);
+
+  margin-bottom: 32px;
+}
+.cook-info__ingredient-title {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-size: var(--title-fs-small);
+  line-height: var(--title-lh-small);
+}
+
+/* Text colors */
 .text-orange {
   color: var(--color-orange) !important;
+}
+
+/* Text decorations */
+.text-semi-bold {
+  font-weight: 500;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-underline {
+  text-decoration: underline;
 }

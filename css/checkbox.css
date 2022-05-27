@@ -1,0 +1,23 @@
+.checkbox {
+  min-width: 21px;
+  height: 21px;
+
+  vertical-align: middle;
+
+  background-color: white;
+
+  border: 1px solid var(--color-gray);
+  border-radius: 4px;
+  
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+
+  margin-top: 2px;
+}
+.checkbox:checked {
+  border: none;
+
+  background-color: var(--color-orange);
+}

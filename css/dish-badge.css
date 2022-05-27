@@ -51,14 +51,64 @@
   line-height: var(--title-lh-xsmall);
   text-transform: uppercase;
 
-  color: var(--color-gray);
+  color: var(--color-light-gray);
 }
 .dish-badge-item__descr {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  font-size: var(--title-fs-smaller);
-  line-height: var(--title-lh-smaller);
+  font-size: var(--title-fs-more-small);
+  line-height: var(--title-lh-more-small);
 
   color: var(--color-dark-blue);
+}
+
+@media (max-width: 374px) {
+  .dish-badge-wrapper {
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    align-items: flex-start;
+    
+    padding-left: 0;
+  
+    background-color: var(--color-white);
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+  }
+  .dish-badge {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    gap: 0;
+
+    padding-right: 20px;
+  }
+  .dish-badge-item {
+    gap: 6px;
+  }
+  .dish-badge-item:first-child {
+    width: 100%;
+
+    margin-bottom: 22px;
+  }
+  .dish-badge-item__icon {
+    min-width: 20px;
+    height: 20px;
+  }
+  .dish-badge-item__title-and-descr {
+    gap: 2px;
+  }
+  .dish-badge-item__title {
+    font-size: var(--title-fs-xxsmall);
+    line-height: var(--title-lh-xxsmall);
+  }
+  .dish-badge-item__descr {
+    font-size: var(--title-fs-xsmall);
+    line-height: var(--title-lh-xsmall);
+  }
 }

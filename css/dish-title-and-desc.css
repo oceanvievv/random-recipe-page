@@ -33,10 +33,10 @@
   font-family: 'Montserrat';
   font-style: italic;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: var(--title-fs-more-small);
+  line-height: var(--title-lh-more-small);
 
-  color: var(--color-dark-gray);
+  color: var(--color-darker-gray);
 
   max-width: 580px;
 }

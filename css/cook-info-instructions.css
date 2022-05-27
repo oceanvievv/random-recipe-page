@@ -1,0 +1,57 @@
+.cook-info__instructions {
+  display: flex;
+  flex-direction: column;
+}
+.cook-info__instructions-points {
+  display: flex;
+  flex-direction: column;
+
+  gap: 35px;
+}
+.cook-info__instructions-point {
+  display: flex;
+  flex-direction: row;
+
+  gap: 15px;
+}
+.cook-info__instructions-point-number {
+  min-width: 36px;
+  height: 36px;
+
+  border-radius: 6px;
+
+  background: #F2994A;
+
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--title-fs-medium);
+  line-height: var(--title-lh-medium);
+
+  text-align: center;
+  vertical-align: middle;
+
+  color: #FFFFFF;
+}
+.cook-info__instructions-point-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--title-fs-smaller);
+  line-height: 150%;
+
+  color: var(--color-dark-blue);
+}
+
+@media (max-width: 374px) {
+  .cook-info__instructions {
+    gap: 10px;
+  }
+  .cook-info__instructions-points {
+    gap: 25px;
+  }
+  .cook-info__instructions-point-text {
+    font-size: var(--title-fs-smaller);
+    line-height: 20px;
+  }
+}

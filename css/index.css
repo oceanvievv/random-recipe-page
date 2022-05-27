@@ -12,14 +12,35 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+
+  margin-bottom: 55px;
 }
 
 .cook-info {
   width: 100%;
-  height: 1300px;
-  max-width: 620px;
+  max-width: 580px;
 
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+
+  gap: 28px;
+}
+
+.note {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  font-size: var(--title-fs-smaller);
+  line-height: 150%;
+
+  color: var(--color-light-gray);
+
+  margin-bottom: 93px;
 }
 
 
@@ -31,5 +52,13 @@
     flex-direction: column;
     
     gap: 30px;
+  }
+  .dish-badge-and-cook-info {
+    margin-bottom: 26px;
+  }
+  .note {
+    font-size: 12px;
+
+    margin-bottom: 129px;
   }
 }

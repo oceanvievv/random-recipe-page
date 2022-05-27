@@ -1,0 +1,62 @@
+.cook-info__ingredients {
+  display: flex;
+  flex-direction: column;
+}
+.cook-info__ingredient {
+  display: flex;
+  flex-direction: column;
+
+  gap: 30px;
+
+  margin-bottom: 38px;
+}
+.cook-info__ingredient:last-child {
+  margin-bottom: 0;
+}
+.cook-info__ingredient-points {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+}
+.cook-info__ingredient-point {
+  display: flex;
+  flex-direction: row;
+
+  gap: 17px;
+}
+.cook-info__ingredient-point-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--title-fs-smaller);
+  line-height: var(--title-lh-smaller);
+
+  color: var(--color-dark-blue);
+}
+
+@media (max-width: 374px) {
+  .cook-info__ingredients-and-instructions-title {
+    font-size: var(--title-fs-small);
+    line-height: var(--title-lh-small);
+  
+    margin-bottom: 13px;
+  }
+  .cook-info__ingredient {
+    gap: 23px;
+  }
+  .cook-info__ingredient-title {
+    font-size: var(--title-fs-small);
+    line-height: var(--title-lh-small);
+  }
+  .cook-info__ingredient-point {
+    display: flex;
+    flex-direction: row;
+  
+    gap: 9px;
+  }
+  .cook-info__ingredient-point-text {
+    font-size: var(--title-fs-more-small);
+    line-height: 25px;
+  }
+}
